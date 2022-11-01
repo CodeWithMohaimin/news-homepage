@@ -10,85 +10,130 @@
 
 .main{
     min-height: 100vh;
-    max-width: 1440px;
-    margin: 50px auto;
+    max-width: 90rem;
+    margin: 3.125rem auto;
+    padding: 15px;
+}
+.bun{
+    cursor: pointer;
+    display: none;
+}
+.bun div{
+    background-color: #333;
+    height: 3px ;
+    width: 30px;
+    margin: 5px 0;
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
 }
-.navbarLogo h1{
-    font-size: 48px;
+.navbar_logo h1{
+    font-size: 3.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.navlinks a{
+.nav_links a{
     text-decoration: none;
-    padding: 0 15px;
-    font-size: 15px;
+    padding: .5rem .9rem;
+    font-size: 1rem;
+    color: hsl(236, 13%, 42%);
 }
-.bannerImage img{
+.nav_links a:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.banner_image img{
     width: 100%;
 }
-.articleText{
+.banner_image2{
+    display: none;
+}
+.banner_image2 img{
+    width: 100%;
+}
+.article_text{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.articleText section{
+.article_text section{
     flex: 1;
 }
-.articleText section h1{
-    font-size: 48px;
+.article_text section h1{
+    font-size: 3rem;
     font-weight: 800;
     font-family: sans-serif;
+    color: hsl(236, 13%, 42%);
 }
-.articleText section p{
-    font-size: 15px;
+.article_text section p{
+    font-size: .9rem;
     color:hsl(233, 8%, 79%);
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 button{
     background-color: hsl(5, 85%, 63%);
-    padding: 7px 20px;
+    padding: 10px 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
     border: none;
     color: #fff;
+    cursor: pointer;
 }
-.container-content{
+.container_content{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
-.aside-section{
-    background-color: #444;
+.aside_section{
+    background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 1.25rem;
 }
-.aside-section div section{
-    margin: 30px 0;
+.aside_section div section{
+    margin: 2rem 0;
 }
-.aside-section div h1{
-    color: orange;
-    font-size: 36px;
+.aside_section div h2{
+    color:hsl(35, 77%, 62%);
+    font-size: 2rem;
+    font-family: sans-serif;
 }
-.aside-border{
+.aside_section section h3:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.aside_section section p{
+    color: hsl(233, 8%, 79%);
+}
+.aside_border{
     border-bottom: 1px solid #999;
     border-top: 1px solid #999;
-    padding: 30px 0;
+    padding: 2rem 0;
 }
 footer{
     display: flex;
     margin: 100px 0;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: space-between;
 }
 
-.footer-card{
+.footer_card{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
-.footerImage img{
+.footer_image img{
     width: 100px;
+}
+.footer_text h2{
+    color: hsl(233, 8%, 79%);
+}
+.footer_text h3{
+    color: hsl(240, 100%, 5%);
+}
+.footer_text h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+.footer_text p{
+    color: hsl(236, 13%, 42%);
 }
