@@ -1,4 +1,5 @@
 # Frontend Mentor - News homepage
+## This Project is basically for Frontend Mentor challenge project. Where I create a Newspaper Home page 📄 with Html and CSS. It's Great project for learning CSS Grid and CSS Flex Box.
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
